@@ -8,34 +8,64 @@ body{
   position: relative;
   width: 100%;
 }
-
 #top-nav {
   display: block;
   position: relative;
   width: 80%;
   margin: auto;
-  height: 20px;
+  height: 35px;
 }
-
 #top-nav > div > * {
   display: block;
   position: absolute;
   width: fit-content;
   height: inherit;
+  font-size: 20px;
 }
-
 #top-nav > div > * > * {
   position: relative;
   display: inline-block;
   width: fit-content;
   height: inherit;
 }
-
 #top-nav .pull-right {
   position: relative;
   float: right;
 }
+.logo-header>*{
+  color: white;
+  font-size: 25px;
 
+}
+.pull-right>*,
+.pull-left>*{
+  display: inline-flex;
+  align-items: center;
+}
+#login{
+  margin: 0px;
+}
+#login>a,
+#RSS>a{
+  text-decoration: none;
+  color: black;
+}
+#RSS{
+  padding: 6px 15px;
+  margin-right: 3px;
+  border-right: 3px solid #F1DA06;
+}
+#seach-form > *{
+  width: 200px;
+  height: 22px;
+  background-color: white;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px 5px 5px 5px ;
+}
+#seach-btn:hover{
+  cursor: pointer;
+}
 #banner {
   background-image: url("./banner.png");
   background-position: center;
@@ -43,8 +73,6 @@ body{
   background-size: cover;
   height: 100px;
 }
-
-
 /* abcsoisfasoifsao */
 #main-container{
 
@@ -57,23 +85,43 @@ body{
 #navbar{
   width: 100%;
   background-color: #3C72FF;
-  margin: auto;
-  
 }
-#navbar > ul{
+.navbar-list{
   margin: 0px;
 }
 .list{
- 
   position: relative;
   display: inline-block;
-  margin: 10px;
   height: inherit;
   float:none;
+  padding: 10px 12px;
+  
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  font-size: 20;
+  font-weight: 600;
 }
-#topnew{
+.list:hover{
+  background-color: white;
+  color: #3C72FF;
+  padding: 7px 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.home-logo{
+  margin-right: 20px;
+  border: none;
+}
+.home-logo:hover{
+  background-color: #3C72FF;
+  border: none;
+  font-size: 16px;
+  color: rgb(230, 138, 138);
+  padding: 5px 12px;
   
 }
+
+
 
 #event{
   margin: 20px 0px;
@@ -83,7 +131,11 @@ body{
   width: 30%;
   height: 50px;
   display: block;
-  /* border-radius: 0px 50px 0px 0px; */
+}
+.event-top > p {
+  font-weight: 900;
+  font-size: 30px;
+  padding: 10px 15px;
 }
 .line{
   width: 100%;
@@ -92,8 +144,6 @@ body{
 }
 #content{
   height: 350px;
-
-  
 }
 #content>*{
   display: inline-block;
@@ -129,6 +179,14 @@ body{
   float: right;
   position: relative;
 }
+
+
+
+
+
+
+
+
 
 #slogan{
   margin: 20px 0px;

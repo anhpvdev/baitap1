@@ -3,52 +3,56 @@
    <head>
     <title>web</title>
     <link rel="stylesheet" href="main.css">
+    <link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
    </head>
 <body>
   <div id='header-comtainer'>
     <div id='top-nav'>
       <div>
         <div class="pull-left">
-            <div id='user-btn'>
-              User logo
+            <div id='user-btn' class="logo-header">
+              <a href="#"><i class="fa-solid fa-circle-user"></i></a>
             </div>
-            <div>
-              ĐĂNG NHẬP
+            <div id="login">
+              <a href="#">ĐĂNG NHẬP</a>
             </div>
         </div>
         <div class="pull-right">
-          <div>
-            RSS
+          <div id="RSS">
+            <a href="#">RSS</a>
           </div>
-          <div>
-            Tìm kiếm
+          <div id="seach-form">
+            <input type="text">
+          </div>
+          <div id="seach-btn" class="logo-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
       </div>
     </div>
-    <div id='banner'>
-      <!-- <img src="" alt=""> -->
-    </div>
+    <div id='banner'></div>
   </div>
-  <!-- phần main -->
+  <!-- phần body -->
   <div id='main-container'>
       <div id="navbar">
-        <ul>
-            <li class="list">home</li>
-            <li class="list">giới thiệu</li>
-            <li class="list">tin tức</li>
-            <li class="list">văn bản</li>
-            <li class="list">học sinh</li>
-            <li class="list">tin bộ môn</li>
-            <li class="list">thư viện</li>
-            <li class="list">liên hệ</li>
-            <li class="list">hỏi đáp</li>
+        <ul class="navbar-list">
+            <li class="list home-logo"><i class="fa-solid fa-house"></i></li>
+            <li class="list">GIỚI THIỆU</li>
+            <li class="list">TIN TỨC</li>
+            <li class="list">VĂN BẢN</li>
+            <li class="list">HỌC SINH</li>
+            <li class="list">TIN BỘ MÔN</li>
+            <li class="list">THƯ VIỆN</li>
+            <li class="list">LIÊN HỆ</li>
+            <li class="list">HỎI ĐÁP</li>
         </ul>
       </div>
 
       <div id="topnew">
           <div id="event">
-            <div class="event-top">tin tức sự kiện</div>
+            <div class="event-top">
+              <p>TIN TỨC - SỰ KIỆN</p>
+            </div>
             <div class="line"></div>
            </div>
 
