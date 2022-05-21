@@ -1,0 +1,152 @@
+body{
+  margin:0px;
+  padding: 0px;
+}
+#header-comtainer {
+  background-color: #3C72FF;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#top-nav {
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 20px;
+}
+
+#top-nav > div > * {
+  display: block;
+  position: absolute;
+  width: fit-content;
+  height: inherit;
+}
+
+#top-nav > div > * > * {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  height: inherit;
+}
+
+#top-nav .pull-right {
+  position: relative;
+  float: right;
+}
+
+#banner {
+  background-image: url("./banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+
+/* abcsoisfasoifsao */
+#main-container{
+
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+}
+#navbar{
+  width: 100%;
+  background-color: #3C72FF;
+  margin: auto;
+  
+}
+#navbar > ul{
+  margin: 0px;
+}
+.list{
+ 
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  height: inherit;
+  float:none;
+}
+#topnew{
+  
+}
+
+#event{
+  margin: 20px 0px;
+}
+.event-top{
+  background-color: #F0DA17;
+  width: 30%;
+  height: 50px;
+  display: block;
+  /* border-radius: 0px 50px 0px 0px; */
+}
+.line{
+  width: 100%;
+  border: 2px solid #F0DA17;
+  margin-bottom: 20px;
+}
+#content{
+  height: 350px;
+
+  
+}
+#content>*{
+  display: inline-block;
+}
+.big-new{
+  width: 40%;
+  background-color: white;
+  border: 2px solid black;
+  display: block;
+  position: absolute;
+}
+.top-header{
+  height: 220px;
+}
+.top-footer{
+  height: 100px;
+  background-color: #3C72FF;
+}
+.pull-date > *{
+  display: inline-block;
+}
+.small-new >*{
+  width: 600px;
+  height: 80px;
+  border-bottom: 2px dotted black;
+  display: block;
+}
+.small-new>*>*{
+  display: inline-block;
+}
+.small-new>*{
+  display: block;
+  float: right;
+  position: relative;
+}
+
+#slogan{
+  margin: 20px 0px;
+}
+.top-slogan{
+  width: 100%;
+  height: 30px;
+  background-color: #3C72FF;
+  border-radius: 10px 10px 0px 0px;
+}
+.bot-slogan{
+  height: 100px;
+  border: 2px solid #3C72FF;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #837878;
+  background-image: url("./slogan.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
